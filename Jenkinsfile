@@ -11,5 +11,10 @@ pipeline{
         sh 'echo "My stage TWO"'
       }
     }
+    stage('Third stage'){
+      steps{
+        sh 'echo "I love Jenkins!"'
+      }
+    }
   }
 }
